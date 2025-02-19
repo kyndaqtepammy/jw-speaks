@@ -703,6 +703,19 @@ body #cdawrap {
   transform: scale(0.9);
 }
 
+#gallery-7 i{
+  position: absolute;
+  bottom: 40px; /* Distance from bottom */
+  right: 130px; /* Distance from right */
+  font-size: 8em;
+  color: #d00e2d;
+  opacity: 1;
+  transition: opacity 0.3s;
+  /* Remove the centering transform since we're using bottom/right positioning */
+  transform: none;
+  z-index: 9999;
+}
+
 .gallery--gridtiny {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
